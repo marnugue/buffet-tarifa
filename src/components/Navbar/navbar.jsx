@@ -12,8 +12,8 @@ const STYLE = ({isActive}) => ({
 const Navbar = (props) => {
 
     return (
-    
-    <nav className="navbar shadow mb-3 p-0" style={{backgroundImage: "url('madera.jpg')", backgroundRepeat:"repeat" ,backgroundSize: "cover"}}>
+      // style={{backgroundImage: "url('madera.jpg')", backgroundRepeat:"repeat" ,backgroundSize: "cover"}}
+    <nav className="navbar shadow mb-3 p-0" >
     
       <div className="navbar-brand p-0">
         {/* <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top"/> */}

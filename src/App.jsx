@@ -13,6 +13,7 @@ import Navbar from './components/Navbar/navbar'
 import Card from './components/Card/card'
 import Footer from "./components/Footer/footer"
 import ContactCard from './components/Contact/contactCard';
+import Home from './components/Home/home';
 
 function App() {
 
@@ -31,8 +32,8 @@ function App() {
     </div> */}
 
     <Routes>
-    <Route path="/contact" element={<ContactCard/>}> 
-    </Route>
+    <Route path="/contact" element={<ContactCard/>}/> 
+    <Route path="/home" element={<Home/>}/>
 
     </Routes>    
    

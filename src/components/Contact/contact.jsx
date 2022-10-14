@@ -7,7 +7,7 @@ const Contact = (props) => {
     return (
         <div className='d-flex-column justify-content-center px-1'>
             <div className='d-flex justify-content-center pb-4'>
-            {props.img}
+            <p>{props.img}</p>
             </div>
 
             <div className='text-center text-wrap m-2' style={{fontSize:30}}>
@@ -15,7 +15,7 @@ const Contact = (props) => {
             </div>
             
             <div className='text-wrap pb-2'>
-                {props.description}
+                <span>{props.description}</span>
             </div>
             
         </div>
