@@ -1,0 +1,17 @@
+@import url(//db.onlinewebfonts.com/c/e46b54d6b7af4637d63e5a4f467c3a66?family=KuenstlerScriptW01-2Bold);
+
+nav {
+
+    background-color: rgb(5, 201, 184);
+
+}
+ 
+.a {
+    color: white !important;
+    text-decoration: none;
+  }
+
+.a:hover{
+    color: white !important;
+    font-weight: bold; /* Inherits color property from its parent */
+}

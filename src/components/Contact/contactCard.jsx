@@ -1,0 +1,31 @@
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import EmailIcon from '@mui/icons-material/Email';
+
+import React from 'react';
+
+import Contact from "./contact"
+
+
+const Style = { color: 'black', fontSize: 60 }
+
+const ContactCard = (props) => {
+
+    const contacs = [{ img: <LocationOnIcon style={Style} />, title: "Dirección", description: <React.Fragment><div>General Copons, bajo A </div> <div className='w-100'></div><div>11380 Tarifa (Cádiz)</div></React.Fragment> },
+    { img: <LocalPhoneIcon style={Style} />, title: "Teléfono / Fax", description: "956 62 70 70/ 639 509 479" }, { img: <EmailIcon style={Style} />, title: "E-mail", description: "mnunezc@icadiz.net" }]
+
+    return (
+        <div className='container-fluid text-center' >
+            <h1>Contacto</h1>
+            <div className='pb-5'>En Despacho Marcos Núñez Cano hacemos un seguimiento exhaustivo y personal a cada proceso que asumimos, y realizamos un estudio completo y actualizado del Derecho Privado (Civil o Mercantil), Derecho Administrativo, etc. Contacte con nosotros, nuestra prioridad es la transparencia. Le esperamos en Tarifa.</div>
+            <div className="d-sm-flex justify-content-between d-s-flex-column justify-content-center">
+                {contacs.map((cardElem) => {
+                    return <Contact img={cardElem.img} title={cardElem.title} description={cardElem.description} />
+                })}
+            </div>
+        </div>
+
+    );
+}
+
+export default ContactCard
