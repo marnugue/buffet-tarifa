@@ -61,3 +61,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.gap100{
+  padding:  70px 0px;
+}
+
+#features {
+  background-image:  url('../public/DSC_0001.JPG');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}

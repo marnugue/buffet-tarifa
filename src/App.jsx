@@ -14,15 +14,13 @@ import Card from './components/Card/card'
 import Footer from "./components/Footer/footer"
 import ContactCard from './components/Contact/contactCard';
 import Home from './components/Home/home';
+import Services from './components/services/Services';
 
 function App() {
 
   return (
     <React.Fragment>
     <Navbar/>
-
-
-
     {/* <div className='row'>
 
       <div className='col-4'>
@@ -34,7 +32,8 @@ function App() {
     <Routes>
     <Route path="/contact" element={<ContactCard/>}/> 
     <Route path="/home" element={<Home/>}/>
-
+    <Route path='/services' element={<Services/>}/>
+    <Route path='*' element={<Home/>}/>
     </Routes>    
    
     <Footer/>

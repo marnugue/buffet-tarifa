@@ -32,3 +32,23 @@ h5 , p{
 }
 
 .carousel-indicators button {filter: invert(100%);}
+
+img {
+  object-fit: cover;
+  /* min-height: 350; */
+  /* max-height: 350; */
+  /* height: auto; */
+  /* height: 60%; */
+  /* height: 60%; */
+  max-height: 75%;
+  
+  
+  
+}
+span{
+  width: 100%;
+}
+
+.roundedCard {
+  background-color: rgb(0, 108, 158);
+}

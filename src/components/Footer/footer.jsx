@@ -5,7 +5,7 @@ const Footer = (props) => {
         // <footer className="fixed-bottom">
         <footer>
 
-            <ul className="nav d-flex justify-content-center border-bottom pb-3 mb-3"> 
+            <ul className="nav d-flex justify-content-center border-bottom pb-3 mb-3 pt-4"> 
                 <li className="nav-item px-2">Aviso Legal</li>
                 <li className="nav-item px-2">Política de Cookies</li>
                 <li className="nav-item px-2">Política de Privacidad</li>

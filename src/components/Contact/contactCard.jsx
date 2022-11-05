@@ -15,10 +15,14 @@ const ContactCard = (props) => {
     { id:2,img: <LocalPhoneIcon style={Style} />, title: "Teléfono / Fax", description: "956 62 70 70/ 639 509 479" }, { id:3, img: <EmailIcon style={Style} />, title: "E-mail", description: "mnunezc@icadiz.net" }]
 
     return (
-        <div className='container-fluid text-center' >
+        <div className='container-fluid text-center mt-3' >
             <h1>Contacto</h1>
-            <div className='pb-5'>En Despacho Marcos Núñez Cano hacemos un seguimiento exhaustivo y personal a cada proceso que asumimos, y realizamos un estudio completo y actualizado del Derecho Privado (Civil o Mercantil), Derecho Administrativo, etc. Contacte con nosotros, nuestra prioridad es la transparencia. Le esperamos en Tarifa.</div>
-            <div className="d-sm-flex justify-content-between d-s-flex-column justify-content-center">
+            <div className='d-flex justify-content-center'>
+                
+                <div className='pb-5 w-75 text-center'>En Despacho Marcos Núñez Cano hacemos un seguimiento exhaustivo y personal a cada proceso que asumimos, y realizamos un estudio completo y actualizado del Derecho Privado (Civil o Mercantil), Derecho Administrativo, etc. Contacte con nosotros, nuestra prioridad es la transparencia. Le esperamos en Tarifa.</div>
+                                 
+            </div>
+            <div className="d-sm-flex justify-content-around d-s-flex-column justify-content-center">
                 {contacs.map((cardElem) => {
                     return <Contact img={cardElem.img} title={cardElem.title} description={cardElem.description} key={cardElem.id} />
                 })}
