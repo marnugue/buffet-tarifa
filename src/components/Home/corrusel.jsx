@@ -29,7 +29,7 @@ const Corrusel = (props) => {
         </div>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="40000">
+    <div className="carousel-item" data-bs-interval="4000">
     <LazyImage
       key={1}
       height={750}
@@ -45,7 +45,7 @@ const Corrusel = (props) => {
         </div>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="10000">
+    <div className="carousel-item" data-bs-interval="4000">
       {/* <img src="DSC_0001.JPG" className="d-block w-100" height="350" alt="..."/> */}
       <LazyImage
       key={1}
