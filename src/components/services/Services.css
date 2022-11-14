@@ -1,5 +1,5 @@
 .backImage{
-    background-image:  url('../public/DSC_0001.JPG');
+    background-image:  url('/DSC_0001.JPG');
     background-size: cover;
     background-attachment: fixed;
     min-height: 500px;

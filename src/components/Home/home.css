@@ -1,3 +1,6 @@
 .home-color {
     color: black !important;
 }
+img {
+    max-height: 750px;
+}

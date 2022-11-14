@@ -15,16 +15,16 @@ const Corrusel = (props) => {
     <div className="carousel-item active" data-bs-interval="4000">
       <LazyImage
       key={1}
-      height={750}
+      // height={750}
       src={db[6].name}
       blurhash={db[6].blurhash}
       />
       {/* <img src="DSC_0013.JPG" className="d-block w-100 " height="350" alt="..."/> */}
-      <div className="carousel-caption d-none d-md-block h-50 ">
+      <div className="carousel-caption d-none d-sm-block h-25 ">
         <div className="row text-center justify-content-center">
-        <div className=" col-2 rounded-3 roundedCard" >        
-        <h5 className="pt-">First slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <div className=" col-3 col-md-4 rounded-3 roundedCard" >        
+        <h5 className="pt-1">First slide label</h5>
+        <p className="d-none d-md-block">Some representative placeholder content for the second slide.</p>
         </div>
         </div>
       </div>
@@ -36,16 +36,16 @@ const Corrusel = (props) => {
       src={db[3].name}
       blurhash={db[3].blurhash}
       />
-      <div className="carousel-caption d-none d-md-block h-50 ">
+      <div className="carousel-caption d-none d-sm-block h-25 ">
         <div className="row text-center justify-content-center">
-        <div className=" col-2 rounded-3 roundedCard" >        
-        <h5 className="pt-">Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <div className=" col-4 rounded-3 roundedCard" >        
+        <h5 className="pt-1">Second slide label</h5>
+        <p className="d-none d-md-block">Some representative placeholder content for the second slide.</p>
         </div>
         </div>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="4000">
+    <div className="carousel-item" data-bs-interval="10000">
       {/* <img src="DSC_0001.JPG" className="d-block w-100" height="350" alt="..."/> */}
       <LazyImage
       key={1}
@@ -53,21 +53,21 @@ const Corrusel = (props) => {
       src={db[8].name}
       blurhash={db[8].blurhash}
       />
-      <div className="carousel-caption d-none d-md-block h-50 ">
+      <div className="carousel-caption d-none d-sm-block h-25 ">
         <div className="row text-center justify-content-center">
-        <div className=" col-2 rounded-3 roundedCard" >        
-        <h5 className="pt-">Third slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <div className=" col-4 rounded-3 roundedCard" >        
+        <h5 className="pt-1">Third slide label</h5>
+        <p className="d-none d-md-block">Some representative placeholder content for the second slide.</p>
         </div>
         </div>
       </div>
     </div>
   </div>
-  <button className="carousel-control-prev h-75" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
-  <button className="carousel-control-next h-75" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>

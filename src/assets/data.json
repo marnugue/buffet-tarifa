@@ -1,0 +1,53 @@
+{
+    "email": "mnunezc@icadiz.net",
+    "CIF": 2165816316,
+    "RegistroMercantil": "alsdfj",
+    "Services": [
+        {
+            "title": "Derecho de las Personas",
+            "list": [
+                "Incapacitación.",
+                "Asistencia y Asesoramiento en relación con el Registro Civil.",
+                "Inscripción de nacimientos.",
+                "Tramitación cambios de Estado Civil y Domicilio."
+            ]
+        },
+        {
+            "title": "Derecho de Familia",
+            "list": [
+                "Procedimiento de separación y divorcios",
+                "Redacción/Comprobación del Convenio Regulador.",
+                "Reclamación de Pensión de Alimentos y Pensión Compensatoria.",
+                "Patria Potestad.",
+                "Otorgamiento de Capitulaciones Matrimoniales.",
+                "Liquidación de Regímenes Matrimoniales",
+                "Ejecución de Sentencias de Familia.",
+                "Uniones de Hecho.",
+                "Procedimientos de Violencia de Género."
+            ]
+        },
+        {
+            "title": "Derecho de los bienes",
+            "list": [
+                "Amplia experiencia en defensa del dominio, declaraciones de dominio y recuperación del mismos.",
+                "Intervención en Deslindes efectuados por las Administraciones públicas, como los realizados para delimitar el dominio entre fincas de propiedad privadas.",
+                "Servidumbres, tanto en su constitución, defensa, como acciones negatorias de su existencia, entre otras las servidumbres de paso, luces y vistas, entre otras.",
+                "Tercerías de Dominio.",
+                "Usufructos y otros derechos reales.",
+                "Compraventas.",
+                "Expedientes de Dominio de reanudación del tracto y de inmatriculación del dominio.",
+                "Cancelación de Cargas en el Registro de la Propiedad."
+            ]
+        },
+        {
+            "title": "Derecho de Sucesiones y Donaciones",
+            "list": [
+                "Preparación y Asistencia a firmas en Notarías.",
+                "Testamentos.",
+                "Herencias y Sucesiones.",
+                "Declaración de herederos abintestato, adjudicación y partición del caudal hereditario, informes de testamentaría e impugnación de disposiciones testamentarias.",
+                "Procedimientos Judiciales de División y Liquidacion de herencias"
+            ]
+        }
+    ]
+}
