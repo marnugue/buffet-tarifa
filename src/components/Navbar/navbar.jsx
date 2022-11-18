@@ -2,6 +2,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import logo from "../../assets/react.svg"
 import "./navbar.css"
 import classes from  "./navbar.module.css"
+import data from "../../assets/data.json"
 
 const STYLE = ({isActive}) => ({
   color:"white",
@@ -9,8 +10,11 @@ const STYLE = ({isActive}) => ({
 
 })
 
+const basename = data["basename"]
+
 const BackgroundColor = {color: "rgb(0, 0,0, 0)"}
-const Font = {fontFamily:"KuenstlerScriptW01-2Bold",color:"white",fontSize:40}
+// const Font = {fontFamily:"KuenstlerScriptW01-2Bold",color:"white",fontSize:40}
+const Font = {fontFamily:"RED MIST",color:"white",fontSize:40}
 
 const Navbar = (props) => {
 
@@ -27,9 +31,9 @@ const Navbar = (props) => {
 		</button>
       <div className="navbar-collapse collapse flex-row" id="navbar">
         <ul className="navbar-nav  mr-auto">
-          <li className="nav-item text-light p-2"> <NavLink to={"/home"} style={STYLE} className="nav-link" >Inicio</NavLink></li>
-          <li className="nav-item p-2"><NavLink to="/services" style={STYLE} className="nav-link">Servicios</NavLink></li>
-          <li className="nav-item p-2"> <NavLink to="/contact" style={STYLE} className="nav-link">Contacto</NavLink></li>        
+          <li className="nav-item text-light p-2"> <NavLink to={basename+"/home"} style={STYLE} className="nav-link" >Inicio</NavLink></li>
+          <li className="nav-item p-2"><NavLink to={basename+"/services"} style={STYLE} className="nav-link">Servicios</NavLink></li>
+          <li className="nav-item p-2"> <NavLink to={basename+"/contact"} style={STYLE} className="nav-link">Contacto</NavLink></li>        
         </ul>
       </div>
   </nav>);

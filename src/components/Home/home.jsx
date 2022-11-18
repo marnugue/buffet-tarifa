@@ -12,7 +12,7 @@ const Home = (props) => {
         <React.Fragment>
         <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div className="col-md-5 p-md-1 mx-auto mt-1 mb-1 my-5">
-      <h1 className="display-4 fw-normal">Marcos Núñez Cano</h1>
+      <h1 className="display-4 fw-normal" style={{fontFamily:"RED MIST",color:"black",fontSize:60}}>Marcos Núñez Cano</h1>
       <p className="lead fw-normal home-color">Despacho de abogados en Tarifa</p>
       
     </div>

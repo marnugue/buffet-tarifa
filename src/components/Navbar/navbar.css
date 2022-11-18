@@ -1,4 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/e46b54d6b7af4637d63e5a4f467c3a66?family=KuenstlerScriptW01-2Bold);
+
+
+@font-face {
+    font-family: "RED MIST";
+    src: url("@font-face/RedMist-Regular.ttf");
+}
 
 nav {
 

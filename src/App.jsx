@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route,Routes } from "react-router-dom"
-
+import data from "./assets/data.json"
 
 
 import reactLogo from './assets/react.svg'
@@ -17,7 +17,7 @@ import Home from './components/Home/home';
 import Services from './components/services/Services';
 
 function App() {
-
+  const basename = data["basename"]
   return (
     <React.Fragment>
     <Navbar/>
@@ -30,10 +30,10 @@ function App() {
     </div> */}
 
     <Routes>
-    <Route path="/contact" element={<ContactCard/>}/> 
-    <Route path="/home" element={<Home/>}/>
-    <Route path='/services' element={<Services/>}/>
-    <Route path='*' element={<Home/>}/>
+    <Route path={basename+"/contact"} element={<ContactCard/>}/> 
+    <Route path={basename+"/home"} element={<Home/>}/>
+    <Route path={basename+'/services'} element={<Services/>}/>
+    <Route path={basename+'*'} element={<Home/>}/>
     </Routes>    
    
     <Footer/>
