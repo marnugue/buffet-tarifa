@@ -1,3 +1,5 @@
 
-
-<a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+const AvisoLegal = () => {
+    return ( <h1>HOla aviso legal</h1>)
+}
+export default AvisoLegal;

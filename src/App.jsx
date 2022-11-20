@@ -15,6 +15,9 @@ import Footer from "./components/Footer/footer"
 import ContactCard from './components/Contact/contactCard';
 import Home from './components/Home/home';
 import Services from './components/services/Services';
+import PoliticaPriv from './components/Politics/PoliticaPriv'
+import AvisoLegal from "./components/Politics/AvisoLegal"
+import PoliticaCookies from "./components/Politics/PoliticaCookies"
 
 function App() {
   const basename = data["basename"]
@@ -33,6 +36,9 @@ function App() {
     <Route path={basename+"/contact"} element={<ContactCard/>}/> 
     <Route path={basename+"/home"} element={<Home/>}/>
     <Route path={basename+'/services'} element={<Services/>}/>
+    <Route path={basename+'/avisoLegal'} element={<AvisoLegal/>}/>
+    <Route path={basename+'/politicaCookies'} element={<PoliticaCookies/>}/>
+    <Route path={basename+'/politicaPrivacidad'} element={<PoliticaPriv/>}/>
     <Route path={basename+'*'} element={<Home/>}/>
     </Routes>    
    
