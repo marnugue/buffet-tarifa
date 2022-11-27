@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import {Blurhash} from "react-blurhash"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import Vite from "/vite.svg"
 
 const LazyImage = (props) => {
   
@@ -23,12 +24,14 @@ const LazyImage = (props) => {
   return (
     <LazyLoadImage
       src={props.src} // use normal <img> attributes as props
+      placeholderSrc={Vite}
       height={props.height}
+      width={props.width}
       effect="blur"
-      onLoad={handleLoad}
-      beforeLoad={handleLoadStarted}
+      // onLoad={handleLoad}
+      // beforeLoad={handleLoadStarted}
       // delayTime={7000}
-      className="d-block w-100"
+      className="d-block img-fluid img-lazy"
       style={{objectFit: "cover"}}
       />
   

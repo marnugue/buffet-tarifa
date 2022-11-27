@@ -12,10 +12,10 @@ const Services = (props) => {
 
         <div className="d-flex justify-content-center text-center">
 
-        <span className=" col-8 col-md-6  fs-5 "> Nuestro asesoramiento se enfoca fundamentalmente en las materias de derecho patrimonial privado, derecho civil, mercantil y administrativo relacionado con los derechos anteriores.</span>
+        <span className=" col-8 col-md-6  fs-5 p-3 "> Nuestro asesoramiento se enfoca fundamentalmente en las materias de derecho patrimonial privado, derecho civil, mercantil y administrativo relacionado con los derechos anteriores.</span>
         </div>
 
-        <div className="backImage" style={{minHeight: "200px"}}>
+        <div className="backImage customShadow2" style={{minHeight: "200px"}}>
 
         </div>
 
@@ -39,6 +39,13 @@ const Services = (props) => {
         <div className="backImage customShadow" style={{minHeight:"300px"}}>
 
         </div>
+
+        <div className="d-flex justify-content-center text-center">
+
+            <span className=" col-8 col-md-6  fs-5 p-3 "> No dude en consultar cualquier duda o información.</span>
+        </div>  
+
+
 
 
         </React.Fragment>

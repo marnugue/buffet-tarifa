@@ -19,7 +19,7 @@ const ContactCard = (props) => {
             <h1>Contacto</h1>
             <div className='d-flex justify-content-center'>
                 
-                <div className='pb-5 fs-4 col-md-8 col-6 text-center'>En Despacho Marcos Núñez Cano hacemos un seguimiento exhaustivo y personal a cada proceso que asumimos, y realizamos un estudio completo y actualizado del Derecho Privado (Civil o Mercantil), Derecho Administrativo, etc. Contacte con nosotros, nuestra prioridad es la transparencia. Le esperamos en Tarifa.</div>
+                <div className='pb-5 fs-4 col-md-8 col-11 text-center'>En Despacho Marcos Núñez Cano hacemos un seguimiento exhaustivo y personal a cada proceso que asumimos, y realizamos un estudio completo y actualizado del Derecho Privado (Civil o Mercantil), Derecho Administrativo, etc. Contacte con nosotros, nuestra prioridad es la transparencia. Le esperamos en Tarifa.</div>
                                  
             </div>
             <div className="d-sm-flex justify-content-around d-s-flex-column justify-content-center">

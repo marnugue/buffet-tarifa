@@ -12,7 +12,7 @@ const STYLE = ({isActive}) => ({
 
 const basename = data["basename"]
 
-const BackgroundColor = {color: "rgb(0, 0,0, 0)"}
+const BackgroundColor = {color: "rgb(255,255,255, 0)"}
 // const Font = {fontFamily:"KuenstlerScriptW01-2Bold",color:"white",fontSize:40}
 const Font = {fontFamily:"RED MIST",color:"white",fontSize:40}
 
@@ -26,7 +26,7 @@ const Navbar = (props) => {
         {/* <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top"/> */}
         <div style={Font}>Marcos Núñez Cano</div>
       </div>
-      <button className="custom-navbar-toggler navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navbar" style={BackgroundColor}>
+      <button className="navbar-toggler ml-auto custom-toggler border-0" type=""data-bs-toggle="collapse" data-bs-target="#navbar" style={BackgroundColor}>
 			<span className="navbar-toggler-icon"></span>
 		</button>
       <div className="navbar-collapse collapse flex-row" id="navbar">

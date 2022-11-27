@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "RED MIST";
-    src: url("@font-face/RedMist-Regular.ttf");
+    src: url("../../assets/@font-face/RedMist-Regular.ttf");
 }
 
 nav {
@@ -24,13 +24,22 @@ nav {
 
 
 
-.navbar-toggler-icon  {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+/* .navbar-toggle .icon-bar { */
+    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); */
+    /* background-color: red !important;
+} */
+
+/* .custom-navbar-toggler {
+    border-color: rgb(134, 2, 2);
+  } */
+  /* .custom-toggler.navbar-toggler {
+    border-color: rgb(233, 0, 0);
+} */
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"/toggler.svg");
 }
-
-.custom-navbar-toggler {
-    border-color: rgb(255, 255, 255);
-  }
-
 
 

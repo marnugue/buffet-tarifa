@@ -12,35 +12,37 @@ const Corrusel = (props) => {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="4000">
+    <div className="carousel-item active" data-bs-interval="100000">
       <LazyImage
       key={1}
-      // height={750}
+      height={750}
+      width={db[6].width}
       src={db[6].name}
       blurhash={db[6].blurhash}
       />
       {/* <img src="DSC_0013.JPG" className="d-block w-100 " height="350" alt="..."/> */}
-      <div className="carousel-caption d-none d-sm-block h-25 ">
+      <div className="carousel-caption h-50 ">
         <div className="row text-center justify-content-center">
-        <div className=" col-3 col-md-4 rounded-3 roundedCard" >        
-        <h5 className="pt-1">First slide label</h5>
-        <p className="d-none d-md-block">Some representative placeholder content for the second slide.</p>
+        <div className=" col-10 col-sm-8 col-md-5 col-lg-4 rounded-3 roundedCard" >        
+        <h5 className="pt-1">No dude en consultar</h5>
+        <p className="">Facilitamos su consulta, asistencia y defensa en todo tipo de demandas del ámbito de materias de nuestro despacho.</p>
         </div>
         </div>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="4000">
+    <div className="carousel-item" data-bs-interval="10000">
     <LazyImage
       key={1}
       height={750}
+      width={db[3].width}
       src={db[3].name}
       blurhash={db[3].blurhash}
       />
-      <div className="carousel-caption d-none d-sm-block h-25 ">
+      <div className="carousel-caption h-50 ">
         <div className="row text-center justify-content-center">
-        <div className=" col-4 rounded-3 roundedCard" >        
-        <h5 className="pt-1">Second slide label</h5>
-        <p className="d-none d-md-block">Some representative placeholder content for the second slide.</p>
+        <div className="col-10 col-sm-8 col-md-5 col-lg-4 rounded-3 roundedCard" >        
+        <h5 className="pt-1">Trato cercano</h5>
+        <p className="">Pondremos a su disposición un trato cercano, personalizado y honesto.</p>
         </div>
         </div>
       </div>
@@ -50,14 +52,16 @@ const Corrusel = (props) => {
       <LazyImage
       key={1}
       height={750}
+      width={db[8].width}
       src={db[8].name}
       blurhash={db[8].blurhash}
+      
       />
-      <div className="carousel-caption d-none d-sm-block h-25 ">
+      <div className="carousel-caption h-50 ">
         <div className="row text-center justify-content-center">
-        <div className=" col-4 rounded-3 roundedCard" >        
-        <h5 className="pt-1">Third slide label</h5>
-        <p className="d-none d-md-block">Some representative placeholder content for the second slide.</p>
+        <div className=" col-10 col-sm-8 col-md-5 col-lg-4 rounded-3 roundedCard" >        
+        <h5 className="pt-1">La mejor solución a su caso</h5>
+        <p className="">Le defenderemos su caso buscando la mejor solución posible para sus intereses.</p>
         </div>
         </div>
       </div>
