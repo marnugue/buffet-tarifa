@@ -5,14 +5,14 @@ import LazyImage from "../LazyImage/Lazy";
 const Corrusel = (props) => {
 
     return (
-<div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+<div id="carouselExampleDark" className="carousel slide" data-bs-touch="true" data-bs-interval="3000" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="100000">
+    <div className="carousel-item active" >
       <LazyImage
       key={1}
       height={750}
@@ -30,7 +30,7 @@ const Corrusel = (props) => {
         </div>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="10000">
+    <div className="carousel-item" >
     <LazyImage
       key={1}
       height={750}
@@ -47,7 +47,7 @@ const Corrusel = (props) => {
         </div>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="4000">
+    <div className="carousel-item" >
       {/* <img src="DSC_0001.JPG" className="d-block w-100" height="350" alt="..."/> */}
       <LazyImage
       key={1}

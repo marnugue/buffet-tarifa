@@ -1,5 +1,12 @@
 {
     "email": "mnunezc@icadiz.net",
+    "nombre":"Marcos",
+    "apellidos":"Núñez Cano",
+    "dni":"75873095M",
+    "ciudad":"Tarifa",
+    "direccion":"Calle General Copons 7 Bajo A, 11380",
+    "telefono":956627070,
+    "url":"www.abodagosdetarifa.com",
     "CIF": 2165816316,
     "RegistroMercantil": "alsdfj",
     "Services": [

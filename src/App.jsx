@@ -36,7 +36,7 @@ function App() {
     <Route path={basename+"/contact"} element={<ContactCard/>}/> 
     <Route path={basename+"/home"} element={<Home/>}/>
     <Route path={basename+'/services'} element={<Services/>}/>
-    <Route path={basename+'/avisoLegal'} element={<AvisoLegal/>}/>
+    <Route path={basename+'/avisoLegal'} element={<AvisoLegal />}/>
     <Route path={basename+'/politicaCookies'} element={<PoliticaCookies/>}/>
     <Route path={basename+'/politicaPrivacidad'} element={<PoliticaPriv/>}/>
     <Route path={basename+'*'} element={<Home/>}/>
