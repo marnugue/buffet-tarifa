@@ -2,6 +2,9 @@ import "./corrusel.css"
 import db from "../../../server/db.json"
 import { bottom } from "@popperjs/core";
 import LazyImage from "../LazyImage/Lazy";
+
+const num = 1
+
 const Corrusel = (props) => {
 
     return (
@@ -12,13 +15,14 @@ const Corrusel = (props) => {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" >
+    <div className="carousel-item active text-center" >
       <LazyImage
       key={1}
       height={750}
-      width={db[6].width}
-      src={db[6].name}
-      blurhash={db[6].blurhash}
+      width={db[1].width}
+      compressedImg={"/compressed/compressed-"+db[1].name}
+      src={db[1].name}
+      blurhash={db[0].blurhash}
       />
       {/* <img src="DSC_0013.JPG" className="d-block w-100 " height="350" alt="..."/> */}
       <div className="carousel-caption h-50 ">
@@ -30,13 +34,14 @@ const Corrusel = (props) => {
         </div>
       </div>
     </div>
-    <div className="carousel-item" >
+    <div className="carousel-item text-center" >
     <LazyImage
       key={1}
       height={750}
-      width={db[3].width}
-      src={db[3].name}
-      blurhash={db[3].blurhash}
+      width={db[1].width}
+      compressedImg={"/compressed/compressed-"+db[2].name}
+      src={db[2].name}
+      blurhash={db[2].blurhash}
       />
       <div className="carousel-caption h-50 ">
         <div className="row text-center justify-content-center">
@@ -47,14 +52,15 @@ const Corrusel = (props) => {
         </div>
       </div>
     </div>
-    <div className="carousel-item" >
+    <div className="carousel-item text-center" >
       {/* <img src="DSC_0001.JPG" className="d-block w-100" height="350" alt="..."/> */}
       <LazyImage
       key={1}
       height={750}
-      width={db[8].width}
-      src={db[8].name}
-      blurhash={db[8].blurhash}
+      width={db[1].width}
+      compressedImg={"/compressed/compressed-"+db[3].name}
+      src={db[3].name}
+      blurhash={db[3].blurhash}
       
       />
       <div className="carousel-caption h-50 ">

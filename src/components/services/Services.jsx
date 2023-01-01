@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css"
 import Service from "./Service"
+import LazyImage from "../LazyImage/Lazy"
 import data from "/src/assets/data.json"
 
 const Services = (props) => {
@@ -16,6 +17,7 @@ const Services = (props) => {
         </div>
 
         <div className="backImage customShadow2" style={{minHeight: "200px"}}>
+            
 
         </div>
 

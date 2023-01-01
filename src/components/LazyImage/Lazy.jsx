@@ -9,7 +9,7 @@ const LazyImage = (props) => {
   const [isLoaded, setLoaded] = useState(false);
   const [isLoadStarted, setLoadStarted] = useState(false);
 
-  console.log(props);
+  // console.log(props);
 
   const handleLoad = () => {
     console.log("loaded");
@@ -24,15 +24,15 @@ const LazyImage = (props) => {
   return (
     <LazyLoadImage
       src={props.src} // use normal <img> attributes as props
-      placeholderSrc={Vite}
+      placeholderSrc={props.compressedImg}
       height={props.height}
       width={props.width}
       effect="blur"
       // onLoad={handleLoad}
       // beforeLoad={handleLoadStarted}
       // delayTime={7000}
-      className="d-block img-fluid img-lazy"
-      style={{objectFit: "cover"}}
+      className="mx-auto d-block img-fluid img-lazy"
+      // style={{objectFit: "cover"}}
       />
   
 );

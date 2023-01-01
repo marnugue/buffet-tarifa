@@ -14,7 +14,7 @@ def getHash(imgPath):
 # Result: 'UBL_:rOpGG-oBUNG,qRj2so|=eE1w^n4S5NH'
 if __name__ == '__main__':
     imagesList = glob("../public/*.JPG")
-    with Pool(6) as pool:
+    with Pool(3) as pool:
         imagesEncoded = list(tqdm(pool.imap(getHash,imagesList),total=len(imagesList)))
         with open("encodedImages.json","w",encoding='utf-8') as f:
             print(imagesEncoded)
