@@ -19,7 +19,7 @@ import PoliticaPriv from './components/Politics/PoliticaPriv'
 import AvisoLegal from "./components/Politics/AvisoLegal"
 import PoliticaCookies from "./components/Politics/PoliticaCookies"
 
-function App() {
+export function App() {
   const basename = data["basename"]
   return (
     <React.Fragment>
@@ -40,6 +40,7 @@ function App() {
     <Route path={basename+'/politicaCookies'} element={<PoliticaCookies/>}/>
     <Route path={basename+'/politicaPrivacidad'} element={<PoliticaPriv/>}/>
     <Route path={basename+'*'} element={<Home/>}/>
+    <Route path={"*"} element={<Home/>}/>
     </Routes>    
    
     <Footer/>
